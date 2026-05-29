@@ -1,0 +1,43 @@
+.footer {
+    background-color: #263238;
+}
+.footer__content {
+    display: flex;
+    column-gap: 87px;
+    padding: 28px 0;
+}
+.footer__info {
+    
+}
+.footer__logo {
+}
+.footer__text {
+    margin-top: 28px;
+}
+.footer__icon {
+    margin-top: 28px;
+}
+.footer__nav {
+    display: flex;
+    column-gap: 40px;
+}
+.nav__company {
+}
+.nav__title {
+}
+.company__list {
+}
+.company__list-item {
+}
+.nav__support {
+}
+.support__list {
+}
+.support__list-item {
+}
+.footer__input input{
+    border-radius: 3px;
+    background-color: #70757795;
+    border: none;
+    padding: 5px;
+}

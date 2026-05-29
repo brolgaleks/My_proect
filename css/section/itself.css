@@ -1,0 +1,37 @@
+.itself {
+    background-color: #F5F7FA;
+    margin-top: 33px;
+}
+.itself__content {
+    display: flex;
+    align-items: center;
+    column-gap: 142px;
+}
+.itself__info {
+}
+.itself__title {
+    font-size: 29px;
+}
+.itself__text {
+    color: black;
+    margin-top: 6px;
+}
+.itself__list {
+    display: flex;
+    gap: 25px;
+    padding: 44px 0;
+}
+.itself__column li{
+    display: flex;
+    padding: 10px 0;
+}
+.itself__column img{
+    padding: 0 11px;
+}
+.itself__info-column {
+}
+.column__title {
+    font-size: 20px;
+}
+.column__text {
+}

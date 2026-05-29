@@ -1,0 +1,67 @@
+.marketing {
+    margin-top: 33px;
+    margin-bottom: 100px;
+}
+
+.marketing__content {}
+
+.marketing__info {
+    text-align: center;
+}
+
+.marketing__title {
+    font-size: 25px;
+}
+
+.marketing__text {
+    margin-top: 6px;
+}
+
+.marketing__cards {
+    display: flex;
+    column-gap: 17px;
+    margin-top: 18px;
+}
+
+.marketing__card {
+    position: relative;
+}
+
+.marketing__block-info {
+    text-align: center;
+    padding: 11px;
+    background-color: #F5F7FA;
+    border-radius: 6px;
+    position: absolute;
+    top: 132px;
+    left: 18px;
+    right: 18px;
+    box-shadow: 0 6px 11px 0 rgba(171, 190, 209, 0.4);
+    transition: transform 1s ease;
+    cursor: pointer;
+}
+.marketing__block-info:hover{
+    transform: scale(1.1);
+}
+
+.card-text {
+    font-family: var(--font-Inter);
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140%;
+    text-align: center;
+    color: #717171;
+    margin-bottom: 17px;
+}
+
+.marketing__btn{
+    font-family: var(--font-Inter);
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140%;
+    color: #4caf4f;
+}
+.marketing__btn:hover{
+    color: #307b33;
+    text-shadow: 3px 3px 5px #717171;
+}

@@ -1,0 +1,36 @@
+.manage {
+    margin-top: 28px;
+}
+.manage__content {
+    text-align: center;
+}
+.manage__info {
+}
+.manage__title {
+    font-size: 25px;
+}
+.manage__text {
+    margin-top: 6px;
+}
+.manage__list {
+    display: flex;
+    column-gap: 89px;
+}
+.manage__list-item:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px rgba(171, 190, 209, 0.327);
+}
+.manage__list-item {
+    box-shadow: 0 1px 3px 0 rgba(171, 190, 209, 0.2);
+    padding: 17px 12px;
+    border: 1px solid rgba(171, 190, 209, 0.2);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+.manage__title-item {
+    font-size: 20px;
+    margin-top: 11px;
+}
+.manage__text-item {
+    margin-top: 6px;
+}

@@ -1,0 +1,38 @@
+.register {
+    /* margin-top: 67px; */
+    background-color: #F5F7FA;
+}
+.register__content {
+    display: flex;
+    align-items: center;
+    column-gap: 72px;
+    padding: 67px 0px 67px 0px;
+}
+.register__info {
+}
+.register__title {
+    font-size: 44px;
+}
+.register__text {
+    margin-top: 11px;
+}
+.register__btn {
+    margin-top: 22px;
+}
+.dots {
+    display: flex;
+    column-gap: 6px;
+    justify-content: center;
+    padding-bottom: 12px;
+}
+.dot {
+    width: 7px;
+    height: 7px;
+    background-color: #4caf4f;
+    border-radius: 100%;
+    opacity: 30%;
+}
+.dot.active{
+    background-color: #4caf4f;
+    opacity: 100%;
+}
